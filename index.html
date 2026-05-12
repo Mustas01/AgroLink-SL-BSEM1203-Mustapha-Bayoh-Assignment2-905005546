@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroLink SL</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background:#f4fff4; color:#222; }
+    header { background:#1b5e20; color:white; padding:20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; }
+    nav a { color:white; text-decoration:none; margin:0 12px; }
+    .hero { padding:60px 20px; text-align:center; background:#e8f5e9; }
+    .hero h1 { font-size:3rem; color:#1b5e20; }
+    .hero p { margin:20px auto; max-width:700px; font-size:1.2rem; }
+    .btn { display:inline-block; padding:12px 24px; margin:10px; background:#2e7d32; color:white; text-decoration:none; border-radius:8px; }
+    .section { padding:50px 20px; text-align:center; }
+    .cards { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:30px; }
+    .card { background:white; padding:25px; width:240px; border-radius:12px; box-shadow:0 2px 10px rgba(0,0,0,0.1); }
+    .products .card img { width:100%; height:150px; object-fit:cover; border-radius:8px; }
+    footer { background:#1b5e20; color:white; text-align:center; padding:20px; }
+    @media (max-width:768px){ .hero h1{font-size:2rem;} .cards{flex-direction:column; align-items:center;} }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>🌾 AgroLink SL</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Marketplace</a>
+      <a href="#">For Farmers</a>
+      <a href="#">For Buyers</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Connecting Farmers to More Markets</h1>
+    <p>AgroLink SL helps farmers in Sierra Leone connect directly with buyers and vendors, improving income and reducing food waste.</p>
+    <a href="#" class="btn">Browse Products</a>
+    <a href="#" class="btn">Join as Farmer</a>
+  </section>
+
+  <section class="section">
+    <h2>Our Features</h2>
+    <div class="cards">
+      <div class="card"><h3>Direct Connection</h3><p>Connect farmers directly to buyers.</p></div>
+      <div class="card"><h3>Fair Prices</h3><p>Reduce middlemen and increase profits.</p></div>
+      <div class="card"><h3>Wider Reach</h3><p>Sell products across Sierra Leone.</p></div>
+      <div class="card"><h3>Secure Platform</h3><p>Simple and trusted transactions.</p></div>
+    </div>
+  </section>
+
+  <section class="section products">
+    <h2>Featured Products</h2>
+    <div class="cards">
+      <div class="card"><img src="https://via.placeholder.com/240x150" alt="Cassava"><h3>Cassava</h3><p>Le 3,500</p></div>
+      <div class="card"><img src="https://via.placeholder.com/240x150" alt="Rice"><h3>Rice</h3><p>Le 12,000</p></div>
+      <div class="card"><img src="https://via.placeholder.com/240x150" alt="Palm Oil"><h3>Palm Oil</h3><p>Le 20,000</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 AgroLink SL |This is my Design for Web Design Assignment-2</p>
+  </footer>
+</body>
+</html>
